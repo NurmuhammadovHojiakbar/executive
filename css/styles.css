@@ -1,3 +1,15 @@
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-track{
+    background-color: rgba(113, 124, 255, 0.3);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #717CFF;
+    border-radius: 10px;
+}
+
 .site-header .site-header__item .site-header__link{
     color: #373737;
     font-weight: 500;
@@ -40,4 +52,14 @@
 
 .featured-universities__carousel-indicator .featured-universities__carousel-item.active{
     background-color: #717CFF;
+}
+.site-main__services-card{
+    max-width: 340px;
+    width: 100%;
+}
+.site-main__services-card .site-main__services-card-btn::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: url("../img/arrow-forward.png") no-repeat center center;
 }
