@@ -1,0 +1,28 @@
+.site-header .site-header__item .site-header__link{
+    color: #373737;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+    border: 2px solid transparent;
+}
+.site-header .site-header__item .site-header__link.active{
+    border-bottom-color:#717CFF;
+}
+.site-header .site-header__item .site-header__link-active:hover{
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.site-main__header .site-main__header-button::after{
+    content: "";
+    width: 28px;
+    height: 26px;
+    background: url("../img/arrow-forward.png") no-repeat center center;
+    background-size: contain;
+}
+
+.site-main__header{
+    background: url("../img/Oval.png") no-repeat 100% calc(100% + 150px);
+}
