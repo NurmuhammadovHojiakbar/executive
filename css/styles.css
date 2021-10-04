@@ -26,3 +26,18 @@
 .site-main__header{
     background: url("../img/Oval.png") no-repeat 100% calc(100% + 150px);
 }
+
+.featured-universities__title{
+    text-transform: uppercase;
+}
+
+.featured-universities__carousel-indicator .featured-universities__carousel-item{
+    width: 14px;
+    height: 14px;
+    background-color: rgba(124, 124, 124, 0.3);
+    border-radius: 100%;
+}
+
+.featured-universities__carousel-indicator .featured-universities__carousel-item.active{
+    background-color: #717CFF;
+}
