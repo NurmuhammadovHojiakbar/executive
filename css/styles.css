@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb{
     color: #fff;
 }
 
-.site-main__header .site-main__header-button::after{
+.site-main__button::after{
     content: "";
     width: 28px;
     height: 26px;
@@ -62,4 +62,9 @@ body::-webkit-scrollbar-thumb{
     width: 15px;
     height: 15px;
     background: url("../img/arrow-forward.png") no-repeat center center;
+}
+
+.news .news-card{
+    max-width: 340px;
+    width: 100%;
 }
