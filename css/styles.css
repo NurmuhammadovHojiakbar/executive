@@ -43,28 +43,33 @@ body::-webkit-scrollbar-thumb{
     text-transform: uppercase;
 }
 
-.featured-universities__carousel-indicator .featured-universities__carousel-item{
+.site-main .carousel-item-controller{
     width: 14px;
     height: 14px;
     background-color: rgba(124, 124, 124, 0.3);
     border-radius: 100%;
 }
 
-.featured-universities__carousel-indicator .featured-universities__carousel-item.active{
+.carousel-item-controller.active{
     background-color: #717CFF;
 }
 .site-main__services-card{
     max-width: 340px;
     width: 100%;
 }
-.site-main__services-card .site-main__services-card-btn::after{
+.site-main__link::after{
     content: "";
     width: 15px;
     height: 15px;
     background: url("../img/arrow-forward.png") no-repeat center center;
+    background-size: contain;
 }
 
 .news .news-card{
     max-width: 340px;
+    width: 100%;
+}
+.events-card{
+    max-width: 540px;
     width: 100%;
 }
