@@ -4,12 +4,10 @@ body::-webkit-scrollbar{
 body::-webkit-scrollbar-track{
     background-color: rgba(113, 124, 255, 0.3);
 }
-
 body::-webkit-scrollbar-thumb{
     background-color: #717CFF;
     border-radius: 10px;
 }
-
 .site-header .site-header__item .site-header__link{
     color: #373737;
     font-weight: 500;
@@ -26,7 +24,6 @@ body::-webkit-scrollbar-thumb{
     background-color: #17a2b8;
     color: #fff;
 }
-
 .site-main__button::after{
     content: "";
     width: 28px;
@@ -34,26 +31,22 @@ body::-webkit-scrollbar-thumb{
     background: url("../img/arrow-forward.png") no-repeat center center;
     background-size: contain;
 }
-
 .site-main__header{
     background: url("../img/Oval.png") no-repeat 100% calc(100% + 150px);
 }
-
 .featured-universities__title{
     text-transform: uppercase;
 }
-
 .site-main .carousel-item-controller{
     width: 14px;
     height: 14px;
     background-color: rgba(124, 124, 124, 0.3);
     border-radius: 100%;
 }
-
 .carousel-item-controller.active{
     background-color: #717CFF;
 }
-.site-main__services-card{
+.site-main__services-card, .country-card, .news-card{
     max-width: 340px;
     width: 100%;
 }
@@ -64,12 +57,11 @@ body::-webkit-scrollbar-thumb{
     background: url("../img/arrow-forward.png") no-repeat center center;
     background-size: contain;
 }
-
-.news .news-card{
-    max-width: 340px;
-    width: 100%;
-}
 .events-card{
     max-width: 540px;
+    width: 100%;
+}
+.testimonial-card{
+    max-width: 440px;
     width: 100%;
 }
